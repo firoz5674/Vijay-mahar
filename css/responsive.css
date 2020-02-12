@@ -187,12 +187,18 @@
 
 /* concept art 2 */
 
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 375px) {
     .concept-art2 {
         padding: 60px 0px !important;
     }
     .concept-art2 h1 {
         font-size: 20px !important;
+    }
+    .owl-pagination {
+        position: absolute;
+        top: 87%;
+        left: 15%;
+        right: 15%;
     }
 }
 @media (min-width: 376px) and (max-width: 414px) {
@@ -202,6 +208,12 @@
     .concept-art2 h1 {
         font-size: 20px !important;
         margin-top: 40px;
+    }
+    .owl-pagination {
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        right: 15%;
     }
 }
 /* concept art 2 */
